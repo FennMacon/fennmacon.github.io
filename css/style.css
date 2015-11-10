@@ -12,11 +12,11 @@ body {
   font-family: 'Futura', sans-serif;
   margin: 0; 
   padding: 0;
-  overflow: hidden}
+  overflow: hidden;}
 
 #page {
   background-color: #403c3b;
-  margin: 10% 10% 10% 10%;
+  margin: 5% 10% 5% 10%;
   padding: 10px 0 10px 0;
   position: relative;
   text-align: center;
@@ -79,4 +79,44 @@ iframe {
 	border:hidden;
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow: visible;
+        background-color: #403c3b;
+    }
+    #burst {
+      display: none;
+    }
+    #bloom {
+      width: 80%;
+      margin: 0 auto 0 auto;
+    }
+    li {
+      margin: 10px 10px 10px 0;
+      padding: 10px 0 10px 20px;
+      text-align: left;
+    }
+    ul {
+      margin: 10px auto 10px auto;
+      padding: 0 0 0 20px;
+      text-align: left;
+    }
+    p {
+      margin: 10px 0 10px 0;
+      padding: 10px 0 10px 0;
+    }
+    #page {
+      margin: 10px 0 0 0;
+      padding: 0 20px 0 20px;
+    }
+    .hide {
+      color: transparent;
+    }
+    h2 {
+      margin: 10px 0 23px 0;
+
+    }
+
 }
