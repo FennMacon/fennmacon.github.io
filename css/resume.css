@@ -1,0 +1,132 @@
+body {
+  background-color: #000;
+  font-family: 'Futura', sans-serif;
+  margin: 0; 
+  padding: 0;}
+
+#page {
+  background-color: #403c3b;
+  margin: 5% 10% 5% 10%;
+  padding: 10px 0 10px 0;
+  position: relative;
+  text-align: center;
+  border-radius: 5px;}
+
+h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  margin: 23px 0 23px 0;}
+
+h3 {
+  color: #944;
+  font-size: 22px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  margin: 23px 0 23px 0;}
+
+h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  margin: 10px 0 23px 0;}
+
+p {
+  background-color: #605c5b;
+  color: #333; 
+  padding: 10px;
+  display: inline-block;
+  margin: 20px auto 20px auto;
+  width: 80%;
+  border-radius: 5px;
+  text-align: center;}
+p span {
+  color: #999;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+  }
+
+p a {
+  color: #900;
+}
+
+p a:hover {
+  color: #d44;
+}
+
+p a:active {
+  color: #b22;
+}
+
+a h4:hover {
+  color:#944;
+}
+
+a h4:active {
+  color:#000;
+}
+ul {
+  text-align: center;
+  color: #eee;
+}
+li {
+  text-align: left;
+  color: #ddd;
+}
+span {
+  color: #777;
+}
+em {
+  color: #ccc;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        overflow: visible;
+        background-color: #403c3b;
+    }
+    #burst {
+      display: none;
+    }
+    #bloom {
+      width: 80%;
+      margin: 0 auto 0 auto;
+    }
+    li {
+      margin: 10px 10px 10px 0;
+      padding: 10px 0 10px 20px;
+      text-align: left;
+    }
+    ul {
+      margin: 10px auto 10px auto;
+      padding: 0 0 0 20px;
+      text-align: left;
+    }
+    p {
+      margin: 10px 0 10px 0;
+      padding: 10px 0 10px 0;
+    }
+    #page {
+      margin: 10px 0 0 0;
+      padding: 0 20px 0 20px;
+    }
+    .hide {
+      color: transparent;
+    }
+    h2 {
+      margin: 10px 0 23px 0;
+
+    }
+
+}
