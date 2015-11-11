@@ -29,7 +29,15 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: .3em;
-  display: inline-block;
+  margin: 10px 0 23px 0;}
+
+h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .3em;
   margin: 10px 0 23px 0;}
 
 h4 {
@@ -43,7 +51,7 @@ h4 {
 
 p {
   background-color: #fff;
-  color: #666; 
+  color: #333; 
   padding: 10px;
   display: inline-block;
   margin: 20px auto 20px auto;
@@ -55,6 +63,26 @@ a {
   text-decoration: none;
   color: #ccc;
   }
+
+p a {
+  color: #900;
+}
+
+p a:hover {
+  color: #d44;
+}
+
+p a:active {
+  color: #b22;
+}
+
+a h4:hover {
+  color:#944;
+}
+
+a h4:active {
+  color:#000;
+}
 
 ul {
   list-style-type: none;}
@@ -75,13 +103,19 @@ li:active {
   background-color: #302c2b;
 }
 
+#resume {
+  list-style-type: circle;
+  text-decoration: none;
+}
+
+
 iframe {
 	border:hidden;
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     body {
         overflow: visible;
         background-color: #403c3b;
