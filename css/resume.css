@@ -90,18 +90,19 @@ span {
 em {
   color: #ccc;
 }
+#tech {
+  text-align: left;
+  padding-left: 100px;
+}
 
 @media only screen and (max-width: 768px) {
     body {
         overflow: visible;
         background-color: #403c3b;
     }
-    #burst {
-      display: none;
-    }
-    #bloom {
-      width: 80%;
-      margin: 0 auto 0 auto;
+    #tech {
+      text-align: left;
+      padding-left: 10px;
     }
     li {
       margin: 10px 10px 10px 0;
