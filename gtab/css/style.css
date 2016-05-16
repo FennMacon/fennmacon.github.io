@@ -1,0 +1,52 @@
+body{
+	font-family: 'MonoMusic';
+	background-color: #111;
+}
+.tab{
+	text-align: center;
+
+}
+p{
+	color: #000;
+}
+input{
+	width: 20px;
+	height: 20px;
+	background-color: #bbb;
+}
+.header{
+	text-align: center;
+	background-color: #ddd;
+	border-radius: 25px;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 10px;
+	text-shadow: -1px -1px 0px #666;
+}
+.lesson{
+	text-align: center;
+	background-color: #ddd;
+	border-radius: 25px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-top: 10px; 
+	padding-bottom: 20px;
+}
+table{
+	text-align: center;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+th{
+	text-align: center;
+	border-radius: 1px;
+	border-style: double;
+}
+td{
+	border-style: double;
+	border-radius: 1px;
+}
