@@ -46,8 +46,8 @@ p {
   display: inline-block;
   margin: 20px auto 20px auto;
   width: 80%;
-  border-radius: 5px;
-  text-align: center;}
+  border-radius: 5px;}
+  
 p span {
   color: #999;
 }
